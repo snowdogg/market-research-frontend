@@ -13,7 +13,7 @@ const Container = styled.div`
 `;
 
 const Footer = styled.p`
-  position: absolute;
+  position: absolute; 
   bottom: 0;
 `
 
