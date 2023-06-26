@@ -98,7 +98,7 @@ function App() {
     };
     
     try {
-      const response = await axios.post(`${process.env.REACT_APP_PYTHON_BACKEND_URL}/query_chatgpt`, body, { auth });
+      const response = await axios.post(`${process.env.REACT_APP_PYTHON_BACKEND_URL}`, body, { auth });
       
       setCompanyData(response.data);
     } catch (error) {
